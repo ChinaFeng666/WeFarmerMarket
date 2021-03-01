@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+  "item":"/components/item/item",
+  "swiper_c":"/components/swiper_c/swiper_c",
+  "list":"/components/list/list",
+  "goods":"/components/goods/goods"
+    },
+  "navigationBarTitleText": "微农市场",
+  "backgroundColor": "#ffb300",
+  "navigationBarTextStyle": "white",
+  "backgroundTextStyle": "light"
+
+}

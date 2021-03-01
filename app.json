@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/my/my",
+    "pages/foodlist/foodlist",
+    "pages/order/order",
+    "pages/advertise_1/advertise_1",
+    "pages/dayspecial/dayspecial",
+    "pages/dayvegetable/dayvegetable",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/particulars/particulars"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#19b87e",
+    "navigationBarTitleText": "微农市场",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "首页",
+        "iconPath": "assets/tabbar/firsticon.png",
+        "selectedIconPath": "assets/tabbar/firsticon_select.png"
+      },
+      {
+        "pagePath": "pages/foodlist/foodlist",
+        "text": "菜谱推荐",
+        "iconPath": "assets/tabbar/foodlist.png",
+        "selectedIconPath": "assets/tabbar/foodlist_seleted.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单管理",
+        "iconPath": "assets/tabbar/order.png",
+        "selectedIconPath": "assets/tabbar/order_seleted.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "assets/tabbar/myicon.png",
+        "selectedIconPath": "assets/tabbar/myicon_seleted.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

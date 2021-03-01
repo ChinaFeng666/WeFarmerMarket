@@ -1,0 +1,71 @@
+/* pages/foodlist/foodlist.wxss */
+page{
+  background:linear-gradient( #89d6ba,#f9e7f0);
+}
+/* 页面背景线性渐变填充 */
+
+.rectangle{
+     position: relative;
+     width: 10rpx;
+     height: 30rpx;
+     top: 130rpx;
+     left: 20rpx;
+     border:  20rpx ;
+     border-color: #6dac9d;
+     border-top-style:none;
+     border-right-style:none;
+     border-bottom-style:none;
+     border-left-style:solid;
+}
+
+
+.today{
+position:relative;
+top: 200rpx;
+left:60rpx;
+}
+.menu_button{
+ position: relative;
+ top: 130rpx;
+ left: 30rpx;
+ display: flex;
+ flex-wrap: nowrap;
+ height: 50rpx;
+ margin-right: 20%;
+
+}
+
+.pressed{
+  background: aqua;
+}
+/* 按钮按下去的样式 */
+.menu_button >.selected_button{
+
+  margin: 4rpx;
+  font-size: 18rpx;
+  padding: 1rpx;
+  padding-top: 10rpx;
+  color: #84ccc9;
+  border-color: #84ccc9;
+}
+/* 按钮被选中的样式 */
+.menu_button >.noraml_button{
+  margin:4rpx;
+  font-size:18rpx;
+  padding: 1rpx;
+  padding-top: 10rpx;
+  color: #ababab;
+  border-color: #ababab ;
+}
+/* 按钮未选中的样式 */
+
+.top-selected{
+  width: 50%;
+  display: flex;
+  float: right;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 0 10rpx;
+  font-size: 30rpx;
+}

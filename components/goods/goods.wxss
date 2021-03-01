@@ -1,0 +1,67 @@
+/* components/goods/goods.wxss */
+.outer{
+ position:relative;
+ top: -220rpx;
+
+ display: flex;
+ flex-wrap: wrap;
+}
+.outer >.nav{
+ height: 450rpx;
+ width: 43%;
+ position: relative;
+ margin:16rpx;
+ left: 40rpx;
+ display: flex;
+ flex-wrap: wrap;
+ border-radius: 20rpx;
+ background-color: hotpink;
+ 
+}
+.nav >.img1{
+  width: 100%;
+  height: 200rpx;
+  margin: -40rpx;
+  position: relative;
+  left: 0rpx;
+  padding: 50rpx;
+  
+}
+.nav >.text1{
+  width: 100%;
+  padding: 20rpx;
+  font-size:30rpx;
+  text-align: left;
+  position: relative;
+  top: -20rpx;
+  
+}
+
+.nav >.text23{
+ width: 80%;
+ position: relative;
+ top: -30rpx;
+ left: 20rpx;
+ text-align: left;
+}
+.nav >.text4{
+  width:80%;
+  position: relative;
+  top: -60rpx;
+  left: 140rpx;
+
+  font-size: 20rpx;
+  text-align: left;
+  color:red;
+  font-weight: 600rpx;
+
+}
+
+.nav >.img_2{
+  width: 60rpx;
+  height:60rpx;
+  position: relative;
+  top: -90rpx;
+  left: -30rpx;
+  border-radius: 50%;
+} 

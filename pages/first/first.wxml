@@ -1,0 +1,60 @@
+<!-- pages/first/first.wxml -->
+<scroll-view style=" overflow-x:hidden;">
+<view class='top-example'> </view>
+
+<swiper_c 
+   imgSrc1="/image/lunbotu1.jpg"
+   imgSrc2="/image/lunbotu1.jpg" 
+   imgSrc3="/image/lunbotu1.jpg"  >
+   </swiper_c>
+ 
+ <view class="cpfl"> 产品分类</view>
+
+<item
+    img1="/image/jinritejia.jpg"
+    img2="/image/pingjiariqing.jpg"
+    img3="/image/yangshengshuiguo.jpg"
+    img4="/image/chakangengduo.jpg"
+    title1="今日特价"  text1="天天有惊喜 低至1.99元"
+    title2="平价日青"  text2="不隔夜蔬菜 新鲜无药"  
+    title3="养生水果"  text3="不平凡的味道"
+    title4="查看更多">
+          </item>
+<!-- item里面的图片和颜色在item组件里面改  -->
+
+
+<view class="jrtj">今日推荐</view>
+<goods
+   goodsimg1="/image/tj_haixiandaxia.jpg"
+   goodsimg2="/image/tj_xiangtianxigua.jpg"
+   goodsname1="A级-海鲜大虾500g"
+   goodsname2="A级-香甜西瓜500g"
+   price1="¥20.50"
+   price2="¥1.50"
+   specs1="1斤/包"
+   specs2="1斤/提 "
+   remind1="限购五件"
+   remind2="限购三件 ">
+</goods>
+
+<goods
+   goodsimg1="/image/tj_xinxiansehngrou.jpg"
+   goodsimg2="/image/tj_huangtianyumi.jpg"
+   goodsname1="A级-新鲜生肉500g"
+   goodsname2="A级-黄甜玉米500g"
+   price1="¥20.00"
+   price2="¥10.90"
+   specs1="1斤/包"
+   specs2="1斤/包 "
+   remind1="限购五件"
+   remind2="限购五件 ">
+</goods>
+
+</scroll-view>
+
+
+
+
+
+
+

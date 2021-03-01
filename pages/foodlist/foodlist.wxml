@@ -1,0 +1,34 @@
+<!--pages/foodlist/foodlist.wxml-->
+<view class="rectangle"></view>
+
+<view class="today">今日菜单</view>
+
+<view class="menu_button"> 
+  <block
+        wx:for="{{buttons}}" wx:key="buttons" wx:for-item="ItemBtn" >
+    <button
+            class='{{ItemBtn.checked?"selected_button":"noraml_button"}}' 
+            data-id='{{ItemBtn.id}}' 
+            data-item='{{ItemBtn.name}}'
+            bindtap="ButtonTap"
+            hover-class="pressed"
+            plain="true"
+      >{{ItemBtn.name}}</button>
+         </block>
+
+     <!-- <view class="listouter">
+      <view class="choice-bar">
+      <view bindtap="opens" data-item="1" class="listtext" hover-class="click-once-opaque">{{start}}</view>
+        <image class="icon-chioce" src="{{!isstart?openimg: offimg}}"></image>
+       </view>
+       <view class="sorting-list{{!isstart?' chioce-list-hide':' chioce-list-show'}}">
+   <view wx:for="{{slist}}" catchtap="onclicks1" data-index="{{index}}" class="sorting-item" hover-class="click-once" wx:key="userInfoListId" >{{item.name}}</view>
+  </view>
+ </view> -->
+</view>
+        
+
+    
+         
+
+

@@ -1,0 +1,15 @@
+/* components/swiper/swiper.wxss */
+.swiperc{
+  position: relative;
+  height: 350rpx;
+  width:580rpx;
+  left: 80rpx;
+
+  top:-100rpx;
+
+}
+.image{
+ 
+  border: 8rpx;
+  border-radius: 10%; 
+  }

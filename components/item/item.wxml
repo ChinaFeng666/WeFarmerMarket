@@ -1,0 +1,39 @@
+<!--components/itemimge/itemimge.wxml-->
+<view class="itemimg">
+  <image src="{{img1}}" class="img" mode="WidthFix" bindtap="jumpds" ></image>
+    <image  src="{{img2}}" class="img" mode="WidthFix"  bindtap="jumpdv" ></image>
+      <image  src="{{img3}}" class="img" mode="WidthFix"   bindtap="jumpds"></image>
+        <image  src="{{img4}}" class="img" mode="WidthFix"   bindtap="jumpdv"></image>
+</view>
+<!-- 图片 -->
+
+<view class="itemtitleup">
+   <text class="titleup"  bindtap="jumpds" style=" color: #a74610;">{{title1}}</text>
+     <text class="titleup" 
+           bindtap="jumpdv"
+           style="position:relative;left:-24rpx;color:#73850d">{{title2}}</text>
+</view>
+<!-- 上部标题文字 -->
+
+<view class="itemtitledown">
+       <text class="titledown"  bindtap="jumpds" style="color:#0e8659">{{title3}}</text>
+         <text class="titledown"  
+               bindtap="jumpdv"
+               style="position:relative;top:76rpx;left:76rpx;color: #1d9ac3;" > 
+         {{title4}}</text>
+</view>
+<!-- 下部标题文字 -->
+
+<view class="itemtextup"  >
+   <text class="textup" bindtap="jumpds" style=" color: #a74610;">{{text1}}</text>
+     <text class="textup" bindtap="jumpdv" style="color:#73850d">{{text2}}</text>
+       </view>
+  <!-- 上部说明文字 -->
+
+
+<view class="itemtextdown"  bindtap="jumpdv">
+       <text class="textdown" bindtap="jumpds"  style="color:#0e8659">{{text3}}</text>
+         <text class="textdown" bindtap="jumpdv" style="color: #1d9ac3;">{{text4}}</text>
+           </view>
+  <!-- 下部说明文字 -->
+

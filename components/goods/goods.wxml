@@ -1,0 +1,27 @@
+<!--components/goods/goods.wxml-->
+<view class="outer">
+ <navigator url="/pages/advertise_1/advertise_1" class="nav" > 
+   <image src="{{goodsimg1}}" class="img1" mode="widthFix"></image>
+     <text class="text1">{{goodsname1}}</text>
+       <text  class="text23" style="font-size: 28rpx;color:#3cc2a2;">{{price1}}</text>
+         <text  class="text23" style="font-size: 24rpx;color:#999999;">{{specs1}}</text>
+           <text class="text4">{{remind1}}</text>
+             <image src="/image/btn_add.png"
+                    class="img_2"
+                    mode="widthFix" 
+                    bindtap="toparticulars"></image>
+                     </navigator>
+
+<navigator url="/pages/advertise_1/advertise_1" class="nav">
+   <image src="{{goodsimg2}}"  class="img1" mode="widthFix"></image>
+     <text class="text1">{{goodsname2}}</text>
+      <text  class="text23"  style="font-size: 28rpx;color:#3cc2a2;">{{price2}}</text>
+        <text  class="text23" style="font-size: 24rpx;color:#999999;">{{specs2}}</text>
+          <text class="text4">{{remind2}}</text>
+              <image src="/image/btn_add.png"
+                      class="img_2" 
+                      mode="widthFix"
+                      bindtap="toparticulars"></image>
+                     </navigator>
+</view>
+

@@ -1,0 +1,20 @@
+<!--components/swiper/swiper.wxml-->
+<swiper indicator-dots="true" 
+        indicator-color="92efd4"
+        indicator-active-color="white"
+        autoplay="true"
+        class="swiperc">
+      <!-- 要跳转的轮播图页面在“swiper_c”中的jumpad1里面改 -->
+    <swiper-item  class="image" >
+      <image src="{{imgSrc1}}"  bindtap="jumpad1"  />  
+        </swiper-item>
+
+          <swiper-item  class="image">
+            <image src="{{imgSrc2}}" bindtap="jumpad1"/>
+              </swiper-item>
+
+                <swiper-item  class="image" >
+                  <image src="{{imgSrc3}}" bindtap="jumpad1" />
+                   </swiper-item>
+
+</swiper>

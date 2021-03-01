@@ -1,0 +1,78 @@
+/* components/itemimge/itemimge.wxss */
+
+
+.itemimg{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -50rpx;
+    left: 24rpx;
+}
+  .itemimg >.img{
+  width:43% ;
+  height: 200rpx;
+  padding: 16rpx;
+  }
+/* 四张图片的样式 */
+
+
+   .itemtitleup{
+     display: flex;
+     flex-wrap: wrap;
+     position: relative;
+     top: -460rpx;
+     left: 50rpx;
+     font-size:32rpx;  
+     font-weight:600;
+                  }
+
+   .itemtitleup >.titleup{
+  width: 50%;
+}
+/* 上部标题文字样式 */
+
+
+.itemtitledown{
+   display: flex;
+   flex-wrap: wrap;
+    position: relative;
+    top: -280rpx;
+    left: 50rpx;
+    font-size:32rpx;  
+    font-weight:600;
+        }
+.itemtitledown >.titledown{
+  width: 50%;
+    }
+    /* 下部标题样式 */
+
+
+.itemtextup{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -550rpx;
+  left: 30rpx;
+  font-size:23rpx;
+ 
+    }
+
+.itemtextup >.textup{
+  width: 40%;
+  padding: 24rpx;
+   }
+   /* 上部说明文字样式 */
+
+
+.itemtextdown{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -384rpx;
+  left: 48rpx;
+  font-size:24rpx;
+}
+.itemtextdown >.textdown{
+  width: 40%;
+}
+  /* 下部说明文字样式 */
